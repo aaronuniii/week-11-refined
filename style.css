@@ -1,6 +1,6 @@
 /* style.css */
 
-/* Your custom color variables */
+/* My css Code*/
 :root {
     --base-font-color: rgb(131, 148, 150);
     --secondary-font-color: rgb(88, 110, 117);
@@ -17,19 +17,19 @@
     --c-green: rgb(133, 153, 0);
 }
 
-/* Your custom CSS styles */
+
 body {
     background-color: var(--c-background-color);
     color: var(--base-font-color);
-    max-width: 800px; /* Set maximum width to 800px */
-    margin: 0 auto; /* Center the content horizontally */
-    padding: 0 20px; /* Add some padding to the sides */
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
 }
 
 header,
 footer {
     background-color: var(--c-background-highlights);
-    padding: 10px; /* Add padding to the header and footer */
+    padding: 10px; 
 }
 
 main,
@@ -41,7 +41,7 @@ header {
 article h3 {
     border: 3px solid var(--c-cyan);
     padding: 5px;
-    margin-top: 50px; /* Add top padding to all headings within the article */
+    margin-top: 50px; 
 }
 
 header h1 {
@@ -77,7 +77,7 @@ aside a:hover {
     color: var(--c-blue);
 }
 
-/* Set layout of the main content section */
+
 main {
     display: flex;
 }
@@ -87,5 +87,5 @@ article {
 }
 
 aside {
-    flex: 0 0 200px; /* Set the width of the aside section */
+    flex: 0 0 200px; 
 }
