@@ -1,8 +1,6 @@
-<html>
-<head>
-<title>Experiments with CSS</title>
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" title="Basic" />
-@import "styles.css";  @import url("styles.css");
+/* style.css */
+
+/* Your custom color variables */
 :root {
     --base-font-color: rgb(131, 148, 150);
     --secondary-font-color: rgb(88, 110, 117);
@@ -18,127 +16,58 @@
     --c-cyan: rgb(42, 161, 152);
     --c-green: rgb(133, 153, 0);
 }
-/* style.css */
 
-/* Set the background color of the page to c-background-color */
+/* Your custom CSS styles */
 body {
     background-color: var(--c-background-color);
-    color: var(--base-font-color); /* Set text color to base-font-color */
+    color: var(--base-font-color);
 }
 
-/* Set the background color of the header and footer to c-background-highlights */
 header,
 footer {
     background-color: var(--c-background-highlights);
 }
 
-/* Set the text color in the main, footer, and header to be base-font-color */
 main,
 footer,
 header {
     color: var(--base-font-color);
 }
 
-/* Set links in the article to c-magenta */
-article a {
-    color: var(--c-magenta);
+article h3 {
+    border: 3px solid var(--c-cyan);
+    padding: 5px;
 }
 
-/* Set link hover color to orange */
-article a:hover {
-    color: var(--c-orange);
+header h1 {
+    text-align: center;
+    font-size: 150%;
+    color: var(--c-yellow);
 }
 
-/* Set link hover color to orange in header and footer */
-header a:hover,
-footer a:hover {
-    color: var(--c-orange);
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-    
-
-   p {
-      padding: 0;
-      margin: 0 0 0.5em 0;
-   }
-
-  
-   p:not(.first) {
-      text-indent: 5em;
-   }
-
-   
-   p.first {
-      text-indent: 0;
-   }
-
-   
-   p:first-of-type {
-      font: 0.17em/1.33 Verdana, sans-serif;
-   }
-
-   h1, h2, p {
-      padding: 0;
-      margin: 0;
-      font: 1em/1.33 Verdana, sans-serif;
-   }
-
-   h1 {
-      font-size: 1.33em;
-      color: red; /* Adding color property for h1 */
-      margin: 0.83em 0 0.17em 0; /* Added margin for h1 */
-   }
-
-   h2 {
-      font-size: 1.17em;
-      color: red; /* Adding color property for h2 */
-      margin: 0.67em 0 0.13em 0; /* Added margin for h2 */
-   }
-   @media screen {
-    /* Styles for screen media */
-    body {
-        color: black;
-        background-color: yellow;
-    }
+nav ul li {
+    text-align: center;
+    display: inline-block;
 }
 
-@media print {
-    /* Styles for print media */
-    body {
-        color: black;
-        background-color: white;
-    }
+nav {
+    display: flex;
+    justify-content: center;
 }
 
+aside {
+    color: var(--c-green);
+}
 
-   /* Background image CSS explanation */
-   /* Backgrounds don't have to be plain text colors. They can be images! */
-   /* background-color - The default color in case the image doesn't work/isn't available */
-   /* background-image - the image you wish to use */
-   /* background-repeat - repeat, repeat-x, repeat-y, or no-repeat */
-   /* background-attachment - fixed or scroll */
-   /* background-position - sets the position of the background image */
+aside a {
+    color: var(--c-red);
+}
 
-</style>
-</head>
-<body>
-   <div id="wrapper">
-   <h1>Big page heading</h1>
-   <p class="introduction first">This is the introductory paragraph.</p>
-   <p class="first">Another paragraph waffling on about something, my favourite TV show, for three or four sentences.</p>
-
-   <div id="films">
-      <h2><strong>A simple subhead:</strong> Films</h2>
-      <p class='recent first'>A short discussion of the last three films I saw.</p>
-      <p>A discussion about my least favourite film</p>
-
-    <div class="movieQuote">
-       <blockquote>
-         <p> "May the Force be with you." </p>
-         <p class="source">XXX</p>
-      </blockquote>
-    </div> <!-- end of movieQuote div -->
-   </div> <!-- end of div#films -->
-   </div><!-- end of div#wrapper -->
-</body>
-</html>
+aside a:hover {
+    color: var(--c-blue);
+}
