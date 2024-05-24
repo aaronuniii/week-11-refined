@@ -18,7 +18,44 @@
     --c-cyan: rgb(42, 161, 152);
     --c-green: rgb(133, 153, 0);
 }
+/* style.css */
 
+/* Set the background color of the page to c-background-color */
+body {
+    background-color: var(--c-background-color);
+    color: var(--base-font-color); /* Set text color to base-font-color */
+}
+
+/* Set the background color of the header and footer to c-background-highlights */
+header,
+footer {
+    background-color: var(--c-background-highlights);
+}
+
+/* Set the text color in the main, footer, and header to be base-font-color */
+main,
+footer,
+header {
+    color: var(--base-font-color);
+}
+
+/* Set links in the article to c-magenta */
+article a {
+    color: var(--c-magenta);
+}
+
+/* Set link hover color to orange */
+article a:hover {
+    color: var(--c-orange);
+}
+
+/* Set link hover color to orange in header and footer */
+header a:hover,
+footer a:hover {
+    color: var(--c-orange);
+}
+
+    
 
    p {
       padding: 0;
