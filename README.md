@@ -40,6 +40,7 @@ An [inline-style link with title](https://commons.wikimedia.org/wiki/File:Kismet
 |   456  | Green |    Large   |
 |   789  | Blue  |    Small   |
 
+```python
 def my_function():
-  print("Hello from a function")
-  
+    print("Hello from a function")
+```
