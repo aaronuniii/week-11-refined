@@ -28,3 +28,7 @@ Another subtask.
   - Subitem 2.1
   - Subitem 2.2
 - Item 3
+
+![Kismet](https://upload.wikimedia.org/wikipedia/commons/0/03/Kismet-IMG_6007-black.jpg)
+
+An [inline-style link with title](https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg) to the image.
