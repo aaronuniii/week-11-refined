@@ -39,3 +39,7 @@ An [inline-style link with title](https://commons.wikimedia.org/wiki/File:Kismet
 |   123  | Red   |   Medium   |
 |   456  | Green |    Large   |
 |   789  | Blue  |    Small   |
+
+def my_function():
+  print("Hello from a function")
+  
