@@ -32,3 +32,10 @@ Another subtask.
 ![Kismet](https://upload.wikimedia.org/wikipedia/commons/0/03/Kismet-IMG_6007-black.jpg)
 
 An [inline-style link with title](https://commons.wikimedia.org/wiki/File:Kismet-IMG_6007-black.jpg) to the image.
+
+
+| Number | Color |    Size    |
+|-------:|:------|:----------:|
+|   123  | Red   |   Medium   |
+|   456  | Green |    Large   |
+|   789  | Blue  |    Small   |
